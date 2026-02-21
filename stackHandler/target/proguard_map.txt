@@ -1,0 +1,19 @@
+umg.edu.gt.datastructure.MyStack -> umg.edu.gt.a.a:
+    umg.edu.gt.datastructure.Node top -> a
+    int size -> b
+    void <init>() -> <init>
+    void push(java.lang.Object) -> a
+    java.lang.Object pop() -> a
+    boolean isEmpty() -> b
+umg.edu.gt.datastructure.Node -> umg.edu.gt.a.b:
+    java.lang.Object value -> a
+    umg.edu.gt.datastructure.Node next -> b
+    void <init>(java.lang.Object) -> <init>
+    java.lang.Object getValue() -> a
+    umg.edu.gt.datastructure.Node getNext() -> b
+    void setNext(umg.edu.gt.datastructure.Node) -> a
+umg.edu.gt.handler.Main -> umg.edu.gt.handler.Main:
+    void <init>() -> <init>
+    void main(java.lang.String[]) -> main
+umg.edu.gt.handler.SymbolValidator -> umg.edu.gt.handler.a:
+    boolean isValid(java.lang.String) -> a
